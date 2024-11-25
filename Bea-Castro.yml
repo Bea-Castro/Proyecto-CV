@@ -1,0 +1,90 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Beatriz
+    last_name: Castro
+    
+    # Define yourself in 4-5 words
+    motto: Work, study, Have fun
+    
+    # Focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Summarize your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: bea.castro.@a.com 
+    phone: 234 2342 342 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Bea-Castro
+
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: C1
+
+      - idiom: French
+        level: Medium
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Football
+
+      - item: Cooking
+
+      - item: Technology
+
+
+# Your previous education
+education:
+    - degree: Tourisim
+      university: University of London
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2010 - 2020
+
+
+    - role: Front & back office
+      time: 2018 - 2024
+      company: Hotel, Madrid, 
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Makes the guest's live easier during their stay.
+
+
+skills:
+    toolset:
+      - name: Python & Django
+        level: loading
+
+      - name: JavaScript & jQuery
+        level: non
+
+      - name: Angular
+        level: non
